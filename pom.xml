@@ -16,6 +16,7 @@
     <properties>
         <java.version>1.8</java.version>
         <sa-token.version>1.28.0</sa-token.version>
+        <druid.version>1.2.6</druid.version>
     </properties>
     <dependencies>
         <dependency>
@@ -43,6 +44,12 @@
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token-spring-boot-starter</artifactId>
             <version>${sa-token.version}</version>
+        </dependency>
+        <!--数据库-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>${druid.version}</version>
         </dependency>
     </dependencies>
 
