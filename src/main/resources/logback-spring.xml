@@ -14,8 +14,7 @@
 			<maxHistory>30</maxHistory>
 		</rollingPolicy>
 		<encoder>
-			<pattern>%date{yyyy-MM-dd HH:mm:ss.SSS ZZZZ} [${app}][${env}][%level] from %logger in %thread -
-				%message%n%xException
+			<pattern>%date{yyyy-MM-dd HH:mm:ss.SSS ZZZZ} [${app}][${env}][%level] from %logger in %thread - %message%n%xException
 			</pattern>
 			<charset>UTF-8</charset>
 		</encoder>
@@ -59,8 +58,7 @@
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
 			<!--控制台日志配色-->
-			<pattern>%cyan(%date{yyyy-MM-dd HH:mm:ss.SSS ZZZZ}) %highlight([${app}][${env}][%level]) from
-				%boldMagenta(%logger) in %yellow(%thread) - %message%n%xException
+			<pattern>%cyan(%date{yyyy-MM-dd HH:mm:ss.SSS ZZZZ}) %highlight([${app}][${env}][%level]) from %boldMagenta(%logger) in %yellow(%thread) - %message%n%xException
 			</pattern>
 			<charset>UTF-8</charset>
 		</encoder>
