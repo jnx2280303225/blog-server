@@ -1,6 +1,7 @@
-package com.jnx.blogserver.api.user;
+package com.jnx.blogserver.api.controller.user;
 
 import io.swagger.annotations.Api;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,5 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(value = "用户信息api接口", tags = "用户信息")
 public class UserController {
 
-
+    @PostMapping("/login")
+    public
 }

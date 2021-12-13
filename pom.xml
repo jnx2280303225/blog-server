@@ -20,6 +20,9 @@
         <druid.version>1.2.6</druid.version>
         <knife4j.version>3.0.2</knife4j.version>
         <mapstruct.version>1.4.2.Final</mapstruct.version>
+        <mybatis-plus.version>3.4.2</mybatis-plus.version>
+        <mybatis-plus-generator.version>3.3.1</mybatis-plus-generator.version>
+        <mybatis.boot.version>2.2.0</mybatis.boot.version>
     </properties>
 
     <dependencies>
@@ -27,7 +30,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -86,6 +88,27 @@
             <artifactId>mapstruct-processor</artifactId>
             <version>${mapstruct.version}</version>
         </dependency>
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-extension</artifactId>
+            <version>${mybatis-plus.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis.boot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>${mybatis-plus-generator.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -104,5 +127,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

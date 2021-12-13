@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+    <!--供应商-->
+    <mapping columnName="purchase_way" dbType="tinyint" fieldType="PurchaseWay"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.PurchaseWay"/>
+    <mapping columnName="payment_type" dbType="tinyint" fieldType="PaymentType"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.PaymentType"/>
+    <mapping columnName="settlement_way" dbType="tinyint" fieldType="SettlementWay"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.SettlementWay"/>
+    <mapping columnName="management_type" dbType="tinyint" fieldType="ManagementType"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.ManagementType"/>
+    <mapping columnName="taxpayer_type" dbType="tinyint" fieldType="TaxpayerType"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.TaxpayerType"/>
+    <mapping columnName="invoice_type" dbType="tinyint" fieldType="InvoiceType"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.InvoiceType"/>
+    <mapping columnName="supplier_status" dbType="tinyint" fieldType="SupplierStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.SupplierStatus"/>
+    <mapping columnName="supplier_product_status" dbType="tinyint" fieldType="SupplierProductStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.SupplierProductStatus"/>
+    <mapping columnName="pay_way" dbType="tinyint" fieldType="PayWay"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.PayWay"/>
+    <!--结算-->
+    <mapping columnName="apply_status" dbType="tinyint" fieldType="ApplyStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.ApplyStatus"/>
+    <mapping columnName="apply_type" dbType="tinyint" fieldType="ApplyType"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.ApplyType"/>
+    <mapping columnName="payment_status" dbType="tinyint" fieldType="PaymentStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.PaymentStatus"/>
+    <!--采购-->
+    <mapping columnName="shortage_demand_status" dbType="tinyint" fieldType="ShortageDemandStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.ShortageDemandStatus"/>
+    <mapping columnName="market_sku_type" dbType="tinyint" fieldType="MarketSkuType"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.MarketSkuType"/>
+    <mapping columnName="stock_plan_status" dbType="tinyint" fieldType="StockPlanStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.StockPlanStatus"/>
+    <mapping columnName="purchase_order_status" dbType="tinyint" fieldType="PurchaseOrderStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.PurchaseOrderStatus"/>
+    <mapping columnName="delivery_status" dbType="tinyint" fieldType="DeliveryStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.DeliveryStatus"/>
+    <mapping columnName="shipping_order_status" dbType="tinyint" fieldType="ShippingOrderStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.ShippingOrderStatus"/>
+    <mapping columnName="arrived_status" dbType="tinyint" fieldType="ArrivedStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.ArrivedStatus"/>
+    <mapping columnName="quality_test_type" dbType="tinyint" fieldType="QualityTestType"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.QualityTestType"/>
+    <mapping columnName="payment_exception_status" dbType="tinyint" fieldType="PaymentExceptionStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.PaymentExceptionStatus"/>
+    <!--异常-->
+    <mapping columnName="exception_status" dbType="tinyint" fieldType="ExceptionStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.ExceptionStatus"/>
+    <mapping columnName="supplier_exception_status" dbType="tinyint" fieldType="SupplierExceptionStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.SupplierExceptionStatus"/>
+    <mapping columnName="exception_type" dbType="tinyint" fieldType="ExceptionType"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.ExceptionType"/>
+    <mapping columnName="plan_status" dbType="tinyint" fieldType="PlanStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.PlanStatus"/>
+    <mapping columnName="handle_plan_type" dbType="tinyint" fieldType="HandlePlanType"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.HandlePlanType"/>
+    <mapping columnName="handle_status" dbType="tinyint" fieldType="HandleStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.HandleStatus"/>
+    <mapping columnName="supplier_handle_status" dbType="tinyint" fieldType="SupplierHandlerStatus"
+             className="com.popicorns.scm.infrastructure.persistence.db.enums.SupplierHandlerStatus"/>
+</mappings>

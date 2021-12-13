@@ -33,7 +33,7 @@ public class SwaggerConfig {
 
     public SwaggerProperties swaggerProperties() {
         return SwaggerProperties.builder()
-                .apiBasePackage("com.jnx.blogserver.api.user")
+                .apiBasePackage("com.jnx.blogserver.api.controller.user")
                 .title("博客系统后台服务")
                 .description("博客系统后台服务接口文档")
                 .contactName("blog-server")
